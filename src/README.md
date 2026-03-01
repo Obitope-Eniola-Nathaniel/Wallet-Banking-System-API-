@@ -28,19 +28,6 @@ A small API to create, read, update, and delete wallets. Built with .NET 9, Clea
 
 ---
 
-## Understand how it works
-
-**Read [START_HERE.md](./START_HERE.md).**  
-It explains, in simple terms:
-
-- What each of the 4 layers does (Api, Application, Domain, Infrastructure)
-- What happens when you create a wallet (step by step, from HTTP to database)
-- What each project contains and why we structure it this way
-
-No jargon — written for beginners.
-
----
-
 ## Folder structure
 
 ```
@@ -59,13 +46,6 @@ WalletBankingAPI/
 ```
 
 ---
-
-## Other docs (when you're ready)
-
-- **PRD.md** — Features and phases (1–5).
-- **INTERVIEW_QA.md** — Interview questions and answers about the design.
-- **ARCHITECTURE.md** — Deeper dive for recruiters/senior devs.
-- **FROM_SCRATCH_AND_FULL_CODEBASE_GUIDE.md** — Build this solution from scratch step by step.
 
 ## Solution structure
 

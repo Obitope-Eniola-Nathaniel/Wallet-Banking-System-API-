@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>WalletBankingAPI.Domain</RootNamespace>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);1591</NoWarn>
+  </PropertyGroup>
+
+  <!--
+    INDUSTRIAL PRACTICE: Domain has ZERO external package references.
+    No EF Core, no MongoDB, no MediatR. Pure business concepts only.
+    This is the "Dependency Rule" in Clean Architecture.
+  -->
+
+</Project>

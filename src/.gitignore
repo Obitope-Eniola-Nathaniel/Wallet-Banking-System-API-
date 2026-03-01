@@ -1,0 +1,19 @@
+# Build
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+
+# IDE
+.vs/
+*.user
+*.suo
+
+# Secrets / env (do not commit passwords)
+appsettings.*.local.json
+*.env
+
+# Logs
+[Ll]og/
+[Ll]ogs/
+
+docs/
